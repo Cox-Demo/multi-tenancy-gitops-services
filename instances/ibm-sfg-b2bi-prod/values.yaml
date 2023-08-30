@@ -101,6 +101,9 @@ ibm-sfg-prod:
         cpu: 2000m
         memory: 4Gi
 
+    livenessProbe:
+      periodSeconds: 5
+
     autoscaling:
       enabled: false
       minReplicas: 2
