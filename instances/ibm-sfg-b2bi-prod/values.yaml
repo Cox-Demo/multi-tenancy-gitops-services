@@ -102,7 +102,7 @@ ibm-sfg-prod:
         memory: 4Gi
 
     livenessProbe:
-      periodSeconds: 5
+      periodSeconds: 20
 
     autoscaling:
       enabled: false
